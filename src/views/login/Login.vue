@@ -4,9 +4,9 @@
           <form class="container" @submit.prevent="entrar">
               <h3 class="font-weight-light">Faça o seu login</h3>
       
-              <label class="sr-only">Email</label>
+              <label class="sr-only">Email</label> <span class="fw-light">teste@teste.com</span>
               <input type="email" class="form-control mt-3 mb-3" autofocus required v-model="usuario.email">
-              <label class="sr-only">Senha</label>
+              <label class="sr-only">Senha</label> <span class="fw-light">12345</span>
               <input type="password" class="form-control mb-3" required v-model="usuario.senha">
               
               <button class="btn btn-primary" type="submit">Entrar</button>
